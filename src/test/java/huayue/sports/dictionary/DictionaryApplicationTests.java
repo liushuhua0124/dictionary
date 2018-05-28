@@ -26,7 +26,6 @@ public class DictionaryApplicationTests {
      */
     public static String Obj2Json(Object obj) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
-        System.out.println("DictionaryApplicationTests.Obj2Json");
         return mapper.writeValueAsString(obj);
     }
 
